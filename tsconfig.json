@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "es2020",
+    "target": "es2020",
+    "moduleResolution": "nodenext",
+    "paths": {
+      "#/*": ["src/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
